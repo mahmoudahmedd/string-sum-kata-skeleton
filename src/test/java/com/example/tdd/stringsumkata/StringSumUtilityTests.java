@@ -10,8 +10,8 @@ class StringSumUtilityTests {
     @Test
     public void addTwoStringsThatAreRealNumbers(){
          // Arrange
-         String firstNumber = "10";
-         String secondNumber = "0";
+         String firstNumber = "100";
+         String secondNumber = "60";
 
          // Act
          Long actualSum = StringSumUtility.addTwoNumbers(firstNumber, secondNumber);
